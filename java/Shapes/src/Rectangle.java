@@ -23,7 +23,7 @@ public class Rectangle extends Shapes {
 	
 	public static Rectangle createRectangle (double a, double b) {
 		
-		if ( a!=0&&b!=0 ) {
+		if ( a!=0&&b!=0 ) {					/// С отрицательными значениями тоже надо что-то решать
 			Rectangle r = new Rectangle();
 			r.setA(a);
 			r.setB(b);
